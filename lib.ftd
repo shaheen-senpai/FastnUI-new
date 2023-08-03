@@ -1,0 +1,202 @@
+-- import: fastn-community.github.io/roboto-typography
+
+-- component page:
+
+
+-- ftd.column:
+width: fill-container
+height: auto
+types: $roboto-typography.types
+colors: 
+background.solid: #010C15
+
+-- ftd.row:
+width: fill-container
+height: auto
+padding-vertical.px: 5
+border-bottom-width.px: 1
+border-bottom-color: #1E2D3D
+
+-- navbar:
+
+-- end: ftd.row
+
+
+-- ftd.column:
+width: fill-container
+height: fill-container
+padding-horizontal.percent: 10
+
+-- hero:
+
+-- template-holder:
+
+-- end: ftd.column
+
+
+-- end: ftd.column
+
+-- end: page
+
+
+
+
+
+
+
+
+
+-- component navbar:
+
+-- ftd.row:
+width: fill-container
+height.fixed.px: 56
+
+-- ftd.text: FASTN UI
+role:
+color: #607B96
+align-self: center
+margin-left.percent: 7
+margin-right.percent: 14
+height.fixed.px: 16 
+
+-- ftd.text: _Home
+role:
+color: #607B96
+padding-vertical.px: 20
+padding-horizontal.px: 32
+border-color: #1E2D3D
+border-left-width.px: 1
+border-right-width.px: 1
+
+-- ftd.text: _About
+role:
+color: #607B96
+padding-vertical.px: 20
+padding-horizontal.px: 32
+border-color: #1E2D3D
+border-left-width.px: 1
+border-right-width.px: 1
+
+-- ftd.text: _Components
+role:
+color: #607B96
+padding-vertical.px: 20
+padding-horizontal.px: 32
+border-color: #1E2D3D
+border-left-width.px: 1
+border-right-width.px: 1
+
+-- end: ftd.row
+
+-- end: navbar
+
+
+
+
+
+
+
+
+
+-- component hero:
+
+
+-- ftd.row:
+width: fill-container
+height: hug-content
+padding-vertical.px: 20
+spacing: space-between
+
+
+-- ftd.column:
+
+-- ftd.text: Welcome to
+role: $inherited.types.heading-hero
+color: #E5E9F0
+
+-- ftd.text: FASTN UI library
+role: $inherited.types.heading-hero
+color: #E5E9F0
+
+-- ftd.text: Building using FASTN is more easy now!!
+role: $inherited.types.heading-large
+color: #4D5BCE
+
+-- end: ftd.column
+
+
+-- ftd.image:
+src: $assets.files.assets.Onlineclass.png
+width.fixed.percent: 50
+
+-- end: ftd.row
+
+-- end: hero
+
+
+
+
+
+
+
+
+
+-- component template-holder:
+
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+
+
+-- template:
+cover: $assets.files.assets.image1.png
+
+-- template:
+cover: $assets.files.assets.image2.png
+
+-- template:
+cover: $assets.files.assets.image3.png
+
+-- end: ftd.row
+
+-- end: template-holder
+
+
+
+
+
+
+
+-- component template:
+ftd.image-src cover:
+
+-- ftd.column:
+width.fixed.percent: 30
+
+
+-- ftd.column:
+height: hug-content
+padding-horizontal.px: 8
+padding-vertical.px: 6
+border-radius.px: 8
+background.solid: #092A38
+
+-- ftd.image:
+src: $template.cover
+width: fill-container
+align-self: center
+
+-- end: ftd.column
+
+
+
+-- ftd.text: //sdvsd
+role: 
+color: #607B96
+
+
+-- end: ftd.column
+
+-- end: template
