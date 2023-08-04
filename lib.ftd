@@ -9,6 +9,7 @@ height: auto
 types: $roboto-typography.types
 colors: 
 background.solid: #010C15
+background.image: 
 
 -- ftd.row:
 width: fill-container
@@ -26,6 +27,7 @@ border-bottom-color: #1E2D3D
 width: fill-container
 height: fill-container
 padding-horizontal.percent: 10
+background.image: 
 
 -- hero:
 
@@ -50,7 +52,7 @@ padding-horizontal.percent: 10
 
 -- ftd.row:
 width: fill-container
-height.fixed.px: 56
+height.fixed.px: 46
 
 -- ftd.text: FASTN UI
 role:
@@ -63,7 +65,7 @@ height.fixed.px: 16
 -- ftd.text: _Home
 role:
 color: #607B96
-padding-vertical.px: 20
+padding-vertical.px: 15
 padding-horizontal.px: 32
 border-color: #1E2D3D
 border-left-width.px: 1
@@ -72,7 +74,7 @@ border-right-width.px: 1
 -- ftd.text: _About
 role:
 color: #607B96
-padding-vertical.px: 20
+padding-vertical.px: 15
 padding-horizontal.px: 32
 border-color: #1E2D3D
 border-left-width.px: 1
@@ -81,7 +83,7 @@ border-right-width.px: 1
 -- ftd.text: _Components
 role:
 color: #607B96
-padding-vertical.px: 20
+padding-vertical.px: 15
 padding-horizontal.px: 32
 border-color: #1E2D3D
 border-left-width.px: 1
@@ -128,7 +130,7 @@ color: #4D5BCE
 
 -- ftd.image:
 src: $assets.files.assets.Onlineclass.png
-width.fixed.percent: 50
+width.fixed.percent: 40
 
 -- end: ftd.row
 
@@ -152,12 +154,18 @@ spacing: space-between
 
 -- template:
 cover: $assets.files.assets.image1.png
+cta-button: Component Library
+text: // Use these components to build your custom websites
 
 -- template:
 cover: $assets.files.assets.image2.png
+cta-button: Frontend Templates
+text: // Use these templates to create landing pages
 
 -- template:
 cover: $assets.files.assets.image3.png
+cta-button: Portfolio Templates
+text: // Build Portfolio websites hustle free using our templates
 
 -- end: ftd.row
 
@@ -171,15 +179,19 @@ cover: $assets.files.assets.image3.png
 
 -- component template:
 ftd.image-src cover:
+string cta-button:
+string text:
 
 -- ftd.column:
 width.fixed.percent: 30
 
 
 -- ftd.column:
-height: hug-content
-padding-horizontal.px: 8
-padding-vertical.px: 6
+height.fixed.px: 250
+padding.px: 10
+;;padding-horizontal.px: 10
+;;padding-vertical.px: 10
+spacing: space-between
 border-radius.px: 8
 background.solid: #092A38
 
@@ -188,13 +200,24 @@ src: $template.cover
 width: fill-container
 align-self: center
 
+-- ftd.text: $template.cta-button
+role: $inherited.types.copy-small
+color: #FFFFFF
+padding-horizontal.px: 14
+padding-vertical.px: 10
+border-radius.px: 8
+background.solid: #1C2B3A
+
+
 -- end: ftd.column
 
 
 
--- ftd.text: //sdvsd
+-- ftd.text: $template.text
 role: 
 color: #607B96
+padding-horizontal.px: 8
+padding-vertical.px: 16
 
 
 -- end: ftd.column
