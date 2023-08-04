@@ -5,11 +5,14 @@
 
 -- ftd.column:
 width: fill-container
-height: auto
+;;height: auto
 types: $roboto-typography.types
 colors: 
 background.solid: #010C15
-;;background.image: 
+
+-- ftd.column:
+width: fill-container
+background.image: $bg-blur
 
 -- ftd.row:
 width: fill-container
@@ -25,9 +28,9 @@ border-bottom-color: #1E2D3D
 
 -- ftd.column:
 width: fill-container
-height: fill-container
+;;height: fill-container
 padding-horizontal.percent: 10
-;;background.image: 
+
 
 -- hero:
 
@@ -35,6 +38,7 @@ padding-horizontal.percent: 10
 
 -- end: ftd.column
 
+-- end: ftd.column
 
 -- end: ftd.column
 
@@ -223,3 +227,17 @@ padding-vertical.px: 16
 -- end: ftd.column
 
 -- end: template
+
+
+
+
+
+
+
+
+
+-- ftd.background-image bg-blur:
+src: $assets.files.assets.Background.png
+repeat: no-repeat
+position: center
+size: cover
