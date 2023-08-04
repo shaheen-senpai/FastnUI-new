@@ -9,7 +9,7 @@ height: auto
 types: $roboto-typography.types
 colors: 
 background.solid: #010C15
-background.image: 
+;;background.image: 
 
 -- ftd.row:
 width: fill-container
@@ -27,7 +27,7 @@ border-bottom-color: #1E2D3D
 width: fill-container
 height: fill-container
 padding-horizontal.percent: 10
-background.image: 
+;;background.image: 
 
 -- hero:
 
