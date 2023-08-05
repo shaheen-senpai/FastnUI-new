@@ -60,14 +60,14 @@ width: fill-container
 height.fixed.px: 40
 
 -- ftd.text: FASTN UI
-role: $fira-code-size-12-400
+role: $fira-code-size-14-400
 color: #607B96
 align-self: center
 margin-left.percent: 7
 margin-right.percent: 14
 
 -- ftd.text: _Home
-role: $fira-code-size-12-400
+role: $fira-code-size-14-400
 color: #607B96
 padding-vertical.px: 12
 padding-horizontal.px: 32
@@ -76,7 +76,7 @@ border-left-width.px: 1
 border-right-width.px: 1
 
 -- ftd.text: _About
-role: $fira-code-size-12-400
+role: $fira-code-size-14-400
 color: #607B96
 padding-vertical.px: 12
 padding-horizontal.px: 32
@@ -85,7 +85,7 @@ border-left-width.px: 1
 border-right-width.px: 1
 
 -- ftd.text: _Components
-role: $fira-code-size-12-400
+role: $fira-code-size-14-400
 color: #607B96
 padding-vertical.px: 12
 padding-horizontal.px: 32
@@ -116,22 +116,23 @@ spacing: space-between
 
 
 -- ftd.column:
+padding-top.px: 20
 
 -- ftd.text: Welcome to
-role: $fira-code-size-48-400
+role: $fira-code-size-56-400
 color: #E5E9F0
 
 -- ftd.text: **FASTN UI** library
-role: $fira-code-size-48-400
+role: $fira-code-size-56-400
 color: #E5E9F0
 
 -- ftd.text: ⇒ Building using FASTN is more
-role: $fira-code-size-24-400
+role: $fira-code-size-30-400
 color: #4D5BCE
 margin-top.px: 15
 
 -- ftd.text:    easy now!!
-role: $fira-code-size-24-400
+role: $fira-code-size-30-400
 color: #4D5BCE
 
 -- end: ftd.column
@@ -139,7 +140,7 @@ color: #4D5BCE
 
 -- ftd.image:
 src: $assets.files.assets.Onlineclass.png
-width.fixed.percent: 40
+width.fixed.percent: 48
 
 -- end: ftd.row
 
@@ -208,7 +209,7 @@ width.fixed.percent: 100
 align-self: center
 
 -- ftd.text: $template.cta-button
-role: $fira-code-size-12-400
+role: $fira-code-size-14-400
 color: #FFFFFF
 padding-horizontal.px: 14
 padding-vertical.px: 10
@@ -219,7 +220,7 @@ background.solid: #1C2B3A
 
 
 -- ftd.text: $template.text
-role: $fira-code-size-12-400
+role: $fira-code-size-14-400
 color: #607B96
 padding-horizontal.px: 8
 padding-vertical.px: 16
@@ -251,20 +252,20 @@ size: cover
 
 
 
--- ftd.type fira-code-size-12-desktop:
-size.px: 12
+-- ftd.type fira-code-size-14-desktop:
+size.px: 14
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-12-mobile:
-size.px: 12
+-- ftd.type fira-code-size-14-mobile:
+size.px: 14
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-12-400:
-desktop: $fira-code-size-12-desktop
-mobile: $fira-code-size-12-mobile
+-- ftd.responsive-type fira-code-size-14-400:
+desktop: $fira-code-size-14-desktop
+mobile: $fira-code-size-14-mobile
 
 
 
@@ -274,40 +275,40 @@ mobile: $fira-code-size-12-mobile
 
 
 
--- ftd.type fira-code-size-48-desktop:
-size.px: 48
-weight: 400
-font-family: $fira-code-assets.fonts.Fira-Code
-
-
--- ftd.type fira-code-size-48-mobile:
-size.px: 48
-weight: 400
-font-family: $fira-code-assets.fonts.Fira-Code
-
--- ftd.responsive-type fira-code-size-48-400:
-desktop: $fira-code-size-48-desktop
-mobile: $fira-code-size-48-mobile
-
-
-
-
-
-
-
-
-
--- ftd.type fira-code-size-24-desktop:
-size.px: 24
+-- ftd.type fira-code-size-56-desktop:
+size.px: 56
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
--- ftd.type fira-code-size-24-mobile:
-size.px: 24
+-- ftd.type fira-code-size-56-mobile:
+size.px: 56
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
--- ftd.responsive-type fira-code-size-24-400:
-desktop: $fira-code-size-24-desktop
-mobile: $fira-code-size-24-mobile
+-- ftd.responsive-type fira-code-size-56-400:
+desktop: $fira-code-size-56-desktop
+mobile: $fira-code-size-56-mobile
+
+
+
+
+
+
+
+
+
+-- ftd.type fira-code-size-30-desktop:
+size.px: 30
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+
+-- ftd.type fira-code-size-30-mobile:
+size.px: 30
+weight: 400
+font-family: $fira-code-assets.fonts.Fira-Code
+
+-- ftd.responsive-type fira-code-size-30-400:
+desktop: $fira-code-size-30-desktop
+mobile: $fira-code-size-30-mobile
