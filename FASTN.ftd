@@ -6,6 +6,7 @@ favicon: /-/shaheen-senpai.github.io/fastnui-new/favicon.ico
 -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
+-- fastn.dependency: shaheen-senpai.github.io/fira-code
 
 -- fastn.auto-import: shaheen-senpai.github.io/fastnui-new/FASTN/ds
 -- fastn.auto-import: shaheen-senpai.github.io/fastnui-new/assets
