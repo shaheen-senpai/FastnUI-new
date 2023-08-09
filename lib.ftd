@@ -23,6 +23,9 @@ border-bottom-width.px: 1
 border-bottom-color: #1E2D3D
 
 -- navbar:
+$hover-home: true
+$hover-about: false
+$hover-components: false
 
 -- end: ftd.row
 
@@ -54,6 +57,9 @@ padding-horizontal.percent: 12
 
 
 -- component navbar:
+boolean $hover-home: 
+boolean $hover-about: 
+boolean $hover-components: 
 
 -- ftd.row:
 width: fill-container
@@ -62,7 +68,9 @@ height.fixed.px: 40
 -- ftd.text: FASTN UI
 role: $fira-code-size-14-400
 color: #607B96
+css: [ $assets.files.logo.css]
 align-self: center
+classes: animate-character
 margin-left.percent: 7
 margin-right.percent: 14
 
@@ -74,6 +82,10 @@ padding-horizontal.px: 32
 border-color: #1E2D3D
 border-left-width.px: 1
 border-right-width.px: 1
+color if {navbar.hover-home}: #FCFCFC
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-home, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-home, v = false)
+link: index/
 
 -- ftd.text: _About
 role: $fira-code-size-14-400
@@ -83,6 +95,9 @@ padding-horizontal.px: 32
 border-color: #1E2D3D
 border-left-width.px: 1
 border-right-width.px: 1
+color if {navbar.hover-about}: #FCFCFC
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-about, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-about, v = false)
 
 -- ftd.text: _Components
 role: $fira-code-size-14-400
@@ -92,6 +107,10 @@ padding-horizontal.px: 32
 border-color: #1E2D3D
 border-left-width.px: 1
 border-right-width.px: 1
+color if {navbar.hover-components}: #FCFCFC
+$on-mouse-enter$: $ftd.set-bool($a = $navbar.hover-components, v = true)
+$on-mouse-leave$: $ftd.set-bool($a = $navbar.hover-components, v = false)   
+link: components/
 
 -- end: ftd.row
 
@@ -253,13 +272,13 @@ size: cover
 
 
 -- ftd.type fira-code-size-14-desktop:
-size.px: 14
+size.px: 16
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
 
 -- ftd.type fira-code-size-14-mobile:
-size.px: 14
+size.px: 16
 weight: 400
 font-family: $fira-code-assets.fonts.Fira-Code
 
